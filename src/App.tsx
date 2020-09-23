@@ -18,6 +18,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Hi there</h1>
       <input value={text} onChange={(evt: any) => setText(evt.target.value)} />
       <button onClick={handleAddTodo}>Add todo</button>
       {todos.length === 0 ? 'No Todos Today' : null}
